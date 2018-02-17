@@ -6,7 +6,7 @@ var app 		= express();
 var mongo;
 //Define request response in root URL (/)
 app.get('/', function (req, res) {
-  res.send('Hello World! testing mac trigger')
+  res.send('Hello World! testing mac trigger1')
 })
 
 app.get('/get_users', function (req, res) {
